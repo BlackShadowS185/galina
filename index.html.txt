@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Вопрос для Галины</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffe4e1, #fff);
+      text-align: center;
+      padding: 50px 20px;
+    }
+    h2 {
+      color: #333;
+      font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 14px 30px;
+      margin: 10px;
+      font-size: 18px;
+      border-radius: 12px;
+      border: none;
+      background-color: #ff69b4;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #ff4da6;
+    }
+    #response {
+      margin-top: 30px;
+      font-size: 20px;
+      color: #222;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Дорогая Галина 💌</h2>
+  <p>Согласны ли вы заключить договор с Олегом<br>на работу в OnlyFans?</p>
+
+  <button onclick="window.location.href='success.html'">✅ Да</button>
+  <button onclick="showResponse()">❌ Нет</button>
+
+  <div id="response"></div>
+
+  <script>
+    function showResponse() {
+      const responseDiv = document.getElementById("response");
+      responseDiv.textContent = "😏 Галина, не тупи. Мы будем богаты!";
+    }
+  </script>
+
+</body>
+</html>

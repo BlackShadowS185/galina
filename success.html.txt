@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Договор отправлен</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6ffe6;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      color: #008000;
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✅ Договор отправлен!</h1>
+  <p>Олег благодарит вас за сотрудничество 😄</p>
+
+</body>
+</html>
